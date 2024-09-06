@@ -1,9 +1,105 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Страница — 1" id="W9piKHdOO3gh-nqHFyr9">
-    <mxGraphModel>
+    <mxGraphModel dx="1095" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-1" value="Стандартный пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-5" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="390" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-13" value="Сформировать заявку на создание нового справочника" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-14" value="Сформировать заявку на создание новой записи в&amp;nbsp; справочнике" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-15" value="Сформировать заявку на редактирование записи в&amp;nbsp; справочнике" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-23" value="Принять заявку в обработку" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-24" value="Отклонить заявку" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-25" value="Взять заявку в работу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="780" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-1" target="Sw2GpvtBc1ML-Zhf_zwb-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="590" as="sourcePoint" />
+            <mxPoint x="350" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-1" target="Sw2GpvtBc1ML-Zhf_zwb-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="595" as="sourcePoint" />
+            <mxPoint x="365" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-1" target="Sw2GpvtBc1ML-Zhf_zwb-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="605" as="sourcePoint" />
+            <mxPoint x="375" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-38" value="Отправить ответ пользователю в Личный кабинет" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="790" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-5" target="Sw2GpvtBc1ML-Zhf_zwb-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="595" as="sourcePoint" />
+            <mxPoint x="515" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-44" value="Управлять заявками" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="680" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-45" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-23" target="Sw2GpvtBc1ML-Zhf_zwb-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="564.8" as="sourcePoint" />
+            <mxPoint x="430" y="659.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-49" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="Sw2GpvtBc1ML-Zhf_zwb-45">
+          <mxGeometry x="-0.007" relative="1" as="geometry">
+            <mxPoint x="15" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-46" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-24" target="Sw2GpvtBc1ML-Zhf_zwb-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="635" as="sourcePoint" />
+            <mxPoint x="461" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-52" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sw2GpvtBc1ML-Zhf_zwb-46">
+          <mxGeometry x="-0.3285" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-47" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-25" target="Sw2GpvtBc1ML-Zhf_zwb-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="635" as="sourcePoint" />
+            <mxPoint x="461" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-53" value="&quot;extend&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sw2GpvtBc1ML-Zhf_zwb-47">
+          <mxGeometry x="-0.0934" y="-1" relative="1" as="geometry">
+            <mxPoint x="-18" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sw2GpvtBc1ML-Zhf_zwb-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sw2GpvtBc1ML-Zhf_zwb-5" target="Sw2GpvtBc1ML-Zhf_zwb-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="595" as="sourcePoint" />
+            <mxPoint x="515" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
